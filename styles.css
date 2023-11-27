@@ -1,0 +1,60 @@
+body {
+  width: 80%;
+  margin: 0 auto;
+}
+#grid {
+  height: 250px;
+  background-color: blueviolet;
+  color: aqua;
+}
+#color {
+  height: 250px;
+  background-color: gold;
+  color: aqua;
+}
+#green {
+  height: 250px;
+  background-color: gray;
+  color: aqua;
+}
+#red {
+  height: 250px;
+  background-color: fuchsia;
+  color: aqua;
+}
+#banana {
+  background-color: brown;
+  color: aqua;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+#plus {
+  height: 250px;
+  background-color: wheat;
+  color: aqua;
+}
+#side {
+  background-color: tomato;
+  color: aqua;
+
+}
+#orange {
+  height: 250px;
+  background-color: silver;
+  color: aqua;
+}
+#pawpaw {
+  height: 250px; display: grid;
+  gap: 1rem;
+  grid-template-columns: 2fr 1fr 2fr;
+  background-color: greenyellow;
+  color: aqua;
+}
+#fat {
+  height: 250px;
+  background-color: cornflowerblue;
+  color: aqua;
+}
+.boho {
+ 
+}
